@@ -1,0 +1,37 @@
+Classe Path - Aula 01
+
+ Metodos:
+ - toAbsolutePath() - Retorna um string contendo o caminho completo do path;
+ - getFileName() - Retorna um string contendo o nome do arquivo ou diretorio especificado pelo Path.
+ - getParent() - Retorna o Path referente ao diretório que contem o este Path.
+ - resolve(String) - Cria um novo Path para um arquivo
+ 
+ 
+ Classe Files - Aula 01
+ 
+ Metodos:
+  - Files.exists(Path) - Vefica se o path especificados (Arquivo ou diretório) existe, retorna um boolean
+  - Files.isDirectory(Path) - Verifica se o path especificado esiste e é um diretório.
+  - Filessize(Path) - Retorna um long contendo o tamanho em butes do arquivo;
+  - Files.createDirectory(Path) - Cria um diretório referente ao path especificado;
+  - Files.createDirectorios(Path) - Cria recursivamente os diretório refente ao path especifico;
+  - Files.move(Path1, Path2) - Move um arquivo de um diretório para outro;
+  - Files.copy(Path1, Path2) - Copia um arquivo de um diretório para outro;
+  - Files.delete(Path) - Apaga o arquivo
+  - Files.createFiles(Path) - Criar um arquivo de tamanho 0;
+  - Files.list(Path) - Lista os arquvos do diretório;
+  
+Leitura e Escrita de Texto - Aula 01
+ - Classes do Pacote Java IO;
+  
+ Reader <- FeleReader
+ 		<- BufferedReader
+ 
+ 
+ 
+ Writer <- FileWriter
+ 		<- BufferedWriter
+ 		<- PrintWriter
+ 		
+ IOexecenption  <- FileNotFoundExeption
+ 				<- EOFException

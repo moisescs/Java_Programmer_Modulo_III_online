@@ -1,0 +1,12 @@
+***  Installation Started 06/18/2019 19:30  ***
+Title: WLAN Radio Assignment Installation
+Source: C:\Users\MOISES~1\AppData\Local\Temp\GLB1FE8.tmp | 06-18-2019 | 19:30:52 | 71680
+RegDB Key: SOFTWARE\Wow6432Node\IGS\ISSI\ISSI EZUpdate
+RegDB Val: 1
+RegDB Name: wlanradio
+RegDB Root: 2
+RegDB Key: SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1-08002BE10318}\0001
+RegDB Val: 2
+RegDB Name: RoamingPreferredBandType
+RegDB Root: 2
+RegDB Old: 0

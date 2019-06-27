@@ -1,0 +1,39 @@
+06/18/2019 19:49:43 Entered ServiceMain
+06/18/2019 19:49:43 Entered InitService
+06/18/2019 19:49:43 Successfully created commands communications channel
+06/18/2019 19:49:43 Successfully created results communications channel
+06/18/2019 19:49:43 Exiting InitService
+06/18/2019 19:49:43 *****Stopping SUService logging*****
+
+
+
+06/18/2019 20:00:27 Returning to OS: 0
+
+06/18/2019 20:00:27 *****Stopping SUService logging*****
+
+
+
+06/18/2019 20:01:57 Entered ServiceMain
+06/18/2019 20:01:57 Entered InitService
+06/18/2019 20:01:57 Successfully created commands communications channel
+06/18/2019 20:01:57 Successfully created results communications channel
+06/18/2019 20:01:57 Exiting InitService
+06/18/2019 20:01:57 *****Stopping SUService logging*****
+
+
+
+06/19/2019 13:20:15 Returning to OS: 0
+
+06/19/2019 13:20:15 *****Stopping SUService logging*****
+
+
+
+06/19/2019 13:20:43 Entered ServiceMain
+06/19/2019 13:20:43 Entered InitService
+06/19/2019 13:20:43 Successfully created commands communications channel
+06/19/2019 13:20:43 Successfully created results communications channel
+06/19/2019 13:20:43 Exiting InitService
+06/19/2019 13:20:43 *****Stopping SUService logging*****
+
+
+
