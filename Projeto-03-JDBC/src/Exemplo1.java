@@ -1,5 +1,6 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -23,9 +24,21 @@ public class Exemplo1 {
 			System.out.println("Conexão aberta com sucesso.");
 			
 			Statement st = cn.createStatement();
+			//Insert com Statement:
 			//st.executeUpdate("INSERT INTO users (nome_user, dtNascimento_user, obs_user) VALUES ('Moises Silva', '1992-05-28', 'Observacao testes')");
+			
+			//Update com Statement:
 			//st.executeUpdate("UPDATE users SET nome_user='José', dtNascimento_user='1995-03-02', obs_user='teste de update via java' WHERE id_user=1");
+			
+			//Delete com Statement:
 			//st.executeUpdate("DELETE FROM users WHERE id_user=2");
+			
+			//Query com resultSet:
+			ResultSet rs = st.executeQuery("SELECT * FROM users");
+			while (rs.next()) {
+				System.out.println("++++++++++++++++++++++++++++++++");
+				System.out.println(rs.getInt("id_user") + " " + rs.getString("nome_user") + " " + rs.getString("dtNascimento_user") + " " +	rs.getString("obs_user"));
+			}
 			
 			st.close();
 			cn.close();
